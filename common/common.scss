@@ -13,9 +13,20 @@
   .headerLink {
     list-style: none;
     a {
-      padding: 6px 10px;
+      padding: 3px 5px;
+      margin: 3px 5px;
+      font-family: 'Montserrat';
+      text-align : center;
+      font-size: 0.98em;
+      width: 100%;
+      display: inline-block;
       color: var(--header_primary);
-      font-size: $font-up-1;
+      
+      &:hover {
+        background-color: var(--tertiary);
+        border-radius: 1em;
+        color: white;
+      }
     }
   }
 }
