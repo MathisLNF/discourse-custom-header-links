@@ -20,10 +20,10 @@
       font-size: 0.98em;
       width: 100%;
       display: inline-block;
-      color: var(--primary-low);
+      color: var(--header_primary);
       
       &:hover {
-        color: white;
+        color: var(--primary-low);
       }
     }
   }
