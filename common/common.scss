@@ -21,19 +21,19 @@
       width: 100%;
       display: inline-block;
       color: black;
-     
+    
+      @media screen and (max-width: 780px) {
+    font-size: 14px;
+    
       //Faire les changements sur la repo LNF pour le header
       
       &:hover {
         color: var(--primary-low);
+        }
       }
     }
   }
 }
-
-  @media screen and (max-width: 780px) {
-    font-size: 14px;
-    }
 
 .desktop-view .vmo,
 .mobile-view .vdo {
