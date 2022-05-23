@@ -31,6 +31,10 @@
   }
 }
 
+  @media screen and (max-width: 780px) {
+    font-size: 14px;
+    }
+
 .desktop-view .vmo,
 .mobile-view .vdo {
   display: none !important;
